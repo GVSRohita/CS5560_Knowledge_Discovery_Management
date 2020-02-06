@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6642340-d587-4e1c-82d1-32af67be9552" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NLP_Manual.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StanfordCoreNLP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoreNLP.py" beforeDir="false" afterPath="$PROJECT_DIR$/CoreNLP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code Snippets/NLP_Manual/Coref_Sentence_1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Code Snippets/NLP_Manual/Coref_Sentence_1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code Snippets/NLP_Manual/Coref_Sentence_2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Code Snippets/NLP_Manual/Coref_Sentence_2.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code Snippets/NLP_Manual/Load Spacy.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Code Snippets/NLP_Manual/Load Spacy.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoreNLP.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/File 1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NLP_Manual.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP_Manual.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NLP_Task.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,73 +34,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="Coreference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Lab2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Coreference.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="File 1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Lab2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Poonam\Documents\GitHub\CS5560---Knowledge-Discovery-Management\ICP_2\StanfordCoreNLP.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="NLP_Manual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Lab2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NLP_Manual.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Webtext_CoreNLP">
     <configuration name="NLP_Manual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Lab2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,7 +60,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Triplets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Spring 2020/Knowledge Discovery &amp; Management/Source Code/Lab 3" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Spring 2020/Knowledge Discovery &amp; Management/Source Code/Lab 3/Triplets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WebText_NLP_Manual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Lab2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,7 +93,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Poonam\Documents\GitHub\CS5560---Knowledge-Discovery-Management\ICP_2\WebText_NLP_Manual.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Webtext_CoreNLP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Poonam\Documents\GitHub\CS5560---Knowledge-Discovery-Management\ICP_2\Webtext_CoreNLP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentiment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="webscrap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webscrap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.File 1" />
-        <item itemvalue="Python.NLP_Manual" />
-        <item itemvalue="Python.NLP_Manual" />
-        <item itemvalue="Python.Coreference" />
+        <item itemvalue="Python.Webtext_CoreNLP" />
+        <item itemvalue="Python.WebText_NLP_Manual" />
+        <item itemvalue="Python.Triplets" />
+        <item itemvalue="Python.sentiment" />
+        <item itemvalue="Python.webscrap" />
       </list>
     </recent_temporary>
   </component>
@@ -178,22 +202,30 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="481" key="GridCell.Tab.0.bottom" timestamp="1580882278372">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1899" height="425" key="GridCell.Tab.0.bottom" timestamp="1581005915094">
+      <screen x="2160" y="0" width="1920" height="1040" />
     </state>
-    <state width="1419" height="481" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1580882278372" />
-    <state width="1419" height="481" key="GridCell.Tab.0.center" timestamp="1580882278372">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1419" height="307" key="GridCell.Tab.0.bottom/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1581005132814" />
+    <state width="1899" height="425" key="GridCell.Tab.0.bottom/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1581005915094" />
+    <state width="1419" height="429" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1580930501927" />
+    <state width="1899" height="425" key="GridCell.Tab.0.center" timestamp="1581005915094">
+      <screen x="2160" y="0" width="1920" height="1040" />
     </state>
-    <state width="1419" height="481" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1580882278372" />
-    <state width="1419" height="481" key="GridCell.Tab.0.left" timestamp="1580882278372">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1419" height="307" key="GridCell.Tab.0.center/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1581005132814" />
+    <state width="1899" height="425" key="GridCell.Tab.0.center/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1581005915094" />
+    <state width="1419" height="429" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1580930501927" />
+    <state width="1899" height="425" key="GridCell.Tab.0.left" timestamp="1581005915090">
+      <screen x="2160" y="0" width="1920" height="1040" />
     </state>
-    <state width="1419" height="481" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1580882278372" />
-    <state width="1419" height="481" key="GridCell.Tab.0.right" timestamp="1580882278372">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state width="1419" height="307" key="GridCell.Tab.0.left/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1581005132814" />
+    <state width="1899" height="425" key="GridCell.Tab.0.left/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1581005915090" />
+    <state width="1419" height="429" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1580930501927" />
+    <state width="1899" height="425" key="GridCell.Tab.0.right" timestamp="1581005915094">
+      <screen x="2160" y="0" width="1920" height="1040" />
     </state>
-    <state width="1419" height="481" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1580882278372" />
+    <state width="1419" height="307" key="GridCell.Tab.0.right/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1581005132814" />
+    <state width="1899" height="425" key="GridCell.Tab.0.right/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1581005915094" />
+    <state width="1419" height="429" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1580930501927" />
     <state x="224" y="107" key="SettingsEditor" timestamp="1580877819528">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
