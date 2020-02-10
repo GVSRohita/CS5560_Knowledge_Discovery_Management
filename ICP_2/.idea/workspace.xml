@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6642340-d587-4e1c-82d1-32af67be9552" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/File 1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP_Manual.py" beforeDir="false" afterPath="$PROJECT_DIR$/NLP_Manual.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NLP_Task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +31,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.WebText_CoreNLP">
+  <component name="RunManager" selected="Python.Triplets">
     <configuration name="NLP_Manual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Lab2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,10 +160,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.WebText_CoreNLP" />
-        <item itemvalue="Python.WebText_NLP_Manual" />
         <item itemvalue="Python.Triplets" />
         <item itemvalue="Python.sentiment" />
+        <item itemvalue="Python.WebText_CoreNLP" />
+        <item itemvalue="Python.WebText_NLP_Manual" />
         <item itemvalue="Python.Webpage_CoreNLP" />
       </list>
     </recent_temporary>
@@ -197,30 +195,34 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="425" key="GridCell.Tab.0.bottom" timestamp="1581005915094">
-      <screen x="2160" y="0" width="1920" height="1040" />
+    <state x="501" y="207" key="FileChooserDialogImpl" timestamp="1581021113370">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="501" y="207" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1581021113370" />
+    <state width="1419" height="237" key="GridCell.Tab.0.bottom" timestamp="1581021014852">
+      <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="1419" height="307" key="GridCell.Tab.0.bottom/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1581005132814" />
-    <state width="1899" height="425" key="GridCell.Tab.0.bottom/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1581005915094" />
-    <state width="1419" height="429" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1580930501927" />
-    <state width="1899" height="425" key="GridCell.Tab.0.center" timestamp="1581005915094">
-      <screen x="2160" y="0" width="1920" height="1040" />
+    <state width="1899" height="481" key="GridCell.Tab.0.bottom/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1581006986590" />
+    <state width="1419" height="237" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1581021014852" />
+    <state width="1419" height="237" key="GridCell.Tab.0.center" timestamp="1581021014852">
+      <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="1419" height="307" key="GridCell.Tab.0.center/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1581005132814" />
-    <state width="1899" height="425" key="GridCell.Tab.0.center/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1581005915094" />
-    <state width="1419" height="429" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1580930501927" />
-    <state width="1899" height="425" key="GridCell.Tab.0.left" timestamp="1581005915090">
-      <screen x="2160" y="0" width="1920" height="1040" />
+    <state width="1899" height="481" key="GridCell.Tab.0.center/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1581006986590" />
+    <state width="1419" height="237" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1581021014852" />
+    <state width="1419" height="237" key="GridCell.Tab.0.left" timestamp="1581021014852">
+      <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="1419" height="307" key="GridCell.Tab.0.left/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1581005132814" />
-    <state width="1899" height="425" key="GridCell.Tab.0.left/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1581005915090" />
-    <state width="1419" height="429" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1580930501927" />
-    <state width="1899" height="425" key="GridCell.Tab.0.right" timestamp="1581005915094">
-      <screen x="2160" y="0" width="1920" height="1040" />
+    <state width="1899" height="481" key="GridCell.Tab.0.left/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1581006986590" />
+    <state width="1419" height="237" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1581021014852" />
+    <state width="1419" height="237" key="GridCell.Tab.0.right" timestamp="1581021014852">
+      <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="1419" height="307" key="GridCell.Tab.0.right/0.0.1440.920/2160.0.1920.1040@0.0.1440.920" timestamp="1581005132814" />
-    <state width="1899" height="425" key="GridCell.Tab.0.right/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1581005915094" />
-    <state width="1419" height="429" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1580930501927" />
+    <state width="1899" height="481" key="GridCell.Tab.0.right/0.0.1440.920/2160.0.1920.1040@2160.0.1920.1040" timestamp="1581006986590" />
+    <state width="1419" height="237" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1581021014852" />
     <state x="224" y="107" key="SettingsEditor" timestamp="1580877819528">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
