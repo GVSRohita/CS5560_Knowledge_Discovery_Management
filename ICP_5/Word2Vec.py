@@ -29,5 +29,5 @@ for row in result.collect():
 synonyms = model.findSynonyms("data", 5)   # its okay for certain words , real bad for others
 synonyms.show(5)
 
-#closing the spark session
+# closing the spark session
 spark.stop()
