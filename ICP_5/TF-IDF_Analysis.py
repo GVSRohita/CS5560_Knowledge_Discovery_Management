@@ -18,9 +18,10 @@ sentenceData = spark.createDataFrame([
 tokenizer = Tokenizer(inputCol="sentence", outputCol="words")
 wordsData = tokenizer.transform(sentenceData)
 
-# applying tf on the words data
+# Applying term-frequency (tf) on the words data
 hashingTF = HashingTF(inputCol="words", outputCol="rawFeatures", numFeatures=20)
 featurizedData = hashingTF.transform(wordsData)
+
 # alternatively, CountVectorizer can also be used to get term frequency vectors
 
 # calculating the IDF

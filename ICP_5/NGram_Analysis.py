@@ -16,4 +16,4 @@ X= vectorizer.transform(data_corpus)
 # vocabulary=vectorizer.fit(documentDF)
 # X= vectorizer.transform(documentDF)
 print(X.toarray())
-print(vocabulary.get_feature_names())
+print(vocabs())_fulary.get_naeatureme
