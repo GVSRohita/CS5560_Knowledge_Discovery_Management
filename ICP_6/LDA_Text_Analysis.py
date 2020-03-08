@@ -86,12 +86,12 @@ print([[(dictionary[id], freq) for id, freq in cp] for cp in corpus[:1]])
 
 # Latent Diichlet Allocation (LDA) Model
 # Generate LDA model
-ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = 10, id2word=dictionary, passes=15)
+ldamodel = gensim.models.ldamodel.LdaModel(corpus, num_topics = 5, id2word=dictionary, passes=15)
 # Save the model generated for future use
 ldamodel.save('model_combined.gensim')
 
 # Identifying topics from the corpus of data
-topics = ldamodel.print_topics(num_words=6)
+topics = ldamodel.print_topics(num_words=5)
 print('\n')
 # Displaying topics identified along with their composition elements
 print("Now printing the topics and their composition")
