@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/poonam/ontologies/2020/2/untitled-ontology-11"
+     xml:base="http://www.semanticweb.org/poonam/ontologies/2020/3/untitled-ontology-2"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/poonam/ontologies/2020/2/untitled-ontology-11">
-    <Prefix name="" IRI="http://www.semanticweb.org/poonam/ontologies/2020/2/untitled-ontology-11"/>
+     ontologyIRI="http://www.semanticweb.org/poonam/ontologies/2020/3/untitled-ontology-2">
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -40,8 +39,43 @@
         <Class IRI="#Son"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Male"/>
+        <ObjectProperty IRI="#hasChild"/>
     </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGender"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSibling"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FullName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Female"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Male"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mary"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Daughter"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Person"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasParent"/>
+                <Class IRI="#Person"/>
+            </ObjectSomeValuesFrom>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasGender"/>
+                <NamedIndividual IRI="#Female"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#Daughter"/>
         <Class IRI="#Person"/>
@@ -63,13 +97,77 @@
         <Class IRI="#Person"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Person"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasGender"/>
+            <Class IRI="#Gender"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Son"/>
         <Class IRI="#Person"/>
     </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Ethnicity"/>
+        <Class IRI="#Gender"/>
+        <Class IRI="#Person"/>
+    </DisjointClasses>
     <ClassAssertion>
         <Class IRI="#Gender"/>
-        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Male"/>
+        <NamedIndividual IRI="#Female"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gender"/>
+        <NamedIndividual IRI="#Male"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Mary"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGender"/>
+        <NamedIndividual IRI="#Mary"/>
+        <NamedIndividual IRI="#Female"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FullName"/>
+        <NamedIndividual IRI="#Mary"/>
+        <Literal>Mary Jost</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasChild"/>
+        <ObjectProperty IRI="#hasParent"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasGender"/>
+    </FunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#hasSibling"/>
+    </SymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasSibling"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGender"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGender"/>
+        <Class IRI="#Gender"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#FullName"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#FullName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>xsd:string</AbbreviatedIRI>
+        <Literal>Mary Jost</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
