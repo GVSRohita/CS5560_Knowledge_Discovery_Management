@@ -1,36 +1,32 @@
-from __future__ import print_function
+# Import libraries
 from pyspark.ml.feature import HashingTF, IDF, Tokenizer
-from pyspark.sql import SparkSession
+from pyspark.sql import SparkSession, Window
+from pyspark.sql.functions import monotonically_increasing_id
+import pyspark.sql.functions as F
 
-# creating spark session
-spark = SparkSession.builder.appName("TfIdf Example").getOrCreate()
+# Create a spark session to initiate the process
+spark = SparkSession.builder.appName("TfIdf-tokenizing").getOrCreate()
 
-# creating spark dataframe wiht the input data. You can also read the data from file. label represents the 3 documnets (0.0,0.1,0.2)
-sentenceData = spark.createDataFrame([
-        (0.0, "input_1.txt."),
-        (0.1, "input_2.txt"),
-        (0.2, "input_3.txt"),
-        (0.3, "input_4.txt"),
-        (0.4, "input_5.txt"),
-    ], ["label", "sentence"])
+# Read input from 5 text sources using a spark data frame
+documents = spark.read.text("dataset/*.txt")
+documents = documents.withColumn("doc_id", F.row_number().over(Window.orderBy('value')))
+documents.printSchema()
 
-# creating tokens/words from the sentence data
-tokenizer = Tokenizer(inputCol="sentence", outputCol="words")
-wordsData = tokenizer.transform(sentenceData)
+# Tokens identified and extracted from the input data
+tokenizer = Tokenizer(inputCol="value", outputCol="words")
+wordsData = tokenizer.transform(documents)
 
-# Applying term-frequency (tf) on the words data
+# Compute term-frequency (tf) for the tokens identified
 hashingTF = HashingTF(inputCol="words", outputCol="rawFeatures", numFeatures=20)
 featurizedData = hashingTF.transform(wordsData)
 
-# alternatively, CountVectorizer can also be used to get term frequency vectors
-
-# Calculating the IDF
+# Compute Inverse Document Frequency (IDF)
 idf = IDF(inputCol="rawFeatures", outputCol="features")
 idfModel = idf.fit(featurizedData)
 rescaledData = idfModel.transform(featurizedData)
 
-#displaying the results
-rescaledData.select("label", "features").show()
+# Display results obtained
+rescaledData.select("doc_id", "features").show(truncate=False)
 
-#closing the spark session
+# Close the spark session
 spark.stop()
