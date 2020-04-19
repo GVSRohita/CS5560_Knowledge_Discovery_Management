@@ -1,6 +1,5 @@
 # Import library
 import numpy as np
-from keras.datasets import cifar10
 from keras.datasets import mnist, fashion_mnist
 import tensorflow as tf
 from keras.models import Sequential
@@ -10,7 +9,6 @@ from matplotlib import pyplot as plt
 
 # Loading input data
 # (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
-# (train_images, train_labels), (test_images, test_labels) = cifar10.load_data()
 (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 
 # Identify classes associated with the fashion mnist data set
