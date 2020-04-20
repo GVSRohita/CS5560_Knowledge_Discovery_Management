@@ -57,7 +57,7 @@ model.compile(
 fashionModel = model.fit(
   train_images,
   to_categorical(train_labels),
-  epochs=3,
+  epochs=25,
   validation_data=(test_images, to_categorical(test_labels)),
 )
 
@@ -77,22 +77,21 @@ print("\n")
 print("These are the corresponding labels :")
 print(test_labels[:5]) # [7, 2, 1, 0, 4]
 
-# Evaluate the performance of the model built
-# plot the acc and val_acc
+# Evaluation of performance of the model built
+# Evaluation of the accuracy associated with the model built
 plt.plot(fashionModel.history['accuracy'])
 plt.plot(fashionModel.history['val_accuracy'])
-plt.title('model loss')
-plt.ylabel('loss')
-plt.xlabel('epoch')
+plt.title('Accuracy of Fashion Model')
+plt.ylabel('Model Accuracy')
+plt.xlabel('No. of Epochs')
 plt.legend(['acc', 'val_acc'], loc='upper left')
 plt.show()
-
-# plot the loss and val_loss
+# Evaluation of the loss associated with the model built
 plt.plot(fashionModel.history['loss'])
 plt.plot(fashionModel.history['val_loss'])
-plt.title('model loss')
-plt.ylabel('loss')
-plt.xlabel('epoch')
+plt.title('Loss of Fashion Model')
+plt.ylabel('Model Loss')
+plt.xlabel('No. of Epochs')
 plt.legend(['loss', 'val_loss'], loc='upper left')
 plt.show()
 
