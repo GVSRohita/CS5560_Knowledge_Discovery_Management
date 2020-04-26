@@ -2,9 +2,10 @@ from __future__ import print_function
 import spacy
 import textacy
 import os
+import pandas as pd
 
 new_list = []
-for root, dirs, files in os.walk("Abstracts Input/*"):
+for root, dirs, files in os.walk("Abstracts"):
     print(files)
     for file in files:
         if file.endswith('.txt'):
@@ -32,7 +33,6 @@ for sentence in clean_data:
 
 # Removing empty tuples in the list
 final = []
-
 
 def Remove(tuples):
     final = [t for t in tuples if t]
