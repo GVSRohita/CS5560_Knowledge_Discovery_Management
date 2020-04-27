@@ -27,11 +27,11 @@ count = df.groupby(['v1']).count()
 print('The frequency of data belonging to each class:')
 print(count)
 
-# Visualization of data distribution
-print('Data spread prior to under sampling')
-sns.countplot(df.v1)
-plt.xlabel('Label')
-plt.title("Number of ham versus spam messages")
+# # Visualization of data distribution
+# print('Data spread prior to under sampling')
+# sns.countplot(df.v1)
+# plt.xlabel('Label')
+# plt.title("Number of ham versus spam messages")
 
 # Identifying the number of data points belonging to class 'ham'
 hamIndex = df[df.v1 == 'ham'].index
