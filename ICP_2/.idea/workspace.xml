@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6642340-d587-4e1c-82d1-32af67be9552" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICP_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICP_8/TripletExtraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP_8/TripletExtraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICP_8/test stdNLP.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

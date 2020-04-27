@@ -24,37 +24,43 @@ df.info()
 
 # Frequency count of data across various columns
 count = df.groupby(['v1']).count()
-print('The frequency of data belonging to each category:', count)
+print('The frequency of data belonging to each class:')
+print(count)
 
 # Visualization of data distribution
+print('Data spread prior to under sampling')
 sns.countplot(df.v1)
 plt.xlabel('Label')
-plt.title("Number of ham versus spam messages using General Random Sampling")
+plt.title("Number of ham versus spam messages")
 
-# Identifying the specific indices associated with each class
-hamData = df[df.v1 == 'ham'].index
-print("Length of data associated to ham: ",len(hamData))
-print(hamData)
-spamData = df[df.v1 == 'spam'].index
-print("Length of data assocaited to spam: ",len(spamData))
-print(spamData)
+# Identifying the number of data points belonging to class 'ham'
+hamIndex = df[df.v1 == 'ham'].index
+print("No. of messages belonging to category HAM: ",len(hamIndex))
+print(hamIndex)
+
+# Identifying the number of data points belonging to class 'spam'
+spamIndex = df[df.v1 == 'spam'].index
+print("No. of messages belonging to category SPAM: ",len(spamIndex))
+print(spamIndex)
 
 # Accessing data based on the class it belongs to
 dataHam = df[df['v1'] == 'ham']
+print('Data belonging to class HAM:')
 print(dataHam)
 dataSpam = df[df['v1'] == 'spam']
+print('Data belonging to class SPAM:')
 print(dataSpam)
 
-# Random under-sampling of data
-hamUnder = dataHam.sample(2*len(spamData))
+# Random under-sampling analysis
+hamUnder = dataHam.sample(2*len(dataSpam))
 dfUnder = pd.concat([hamUnder, dataSpam], axis=0)
 
 # Visualization of data distribution using under sampling
-sns.countplot(df.v1)
-plt.xlabel('Label')
+sns.countplot(dfUnder.v1)
+plt.xlabel('Type of Message')
 plt.title("Number of ham versus spam messages using Random Under Sampling")
-print("No. of spam messages resulting from under sampling: ", len(dfUnder['v1'] == dataSpam))
-print("No. of ham messages resulting from under sampling: ", len(dfUnder['v1'] == dataHam))
+print("No. of spam messages resulting from under sampling: ", len(dfUnder[dfUnder['v1'] == 'spam']))
+print("No. of ham messages resulting from under sampling: ", len(dfUnder[dfUnder['v1'] == 'ham']))
 
 # Identifying feature predictors and target variables
 x = dfUnder.v2

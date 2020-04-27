@@ -25,7 +25,7 @@ df.info()
 # Visualization of data distribution
 sns.countplot(df.v1)
 plt.xlabel('Label')
-plt.title("Number of ham versus spam messages")
+plt.title("Number of ham versus spam messages using Random Sampling")
 
 # Identifying feature predictors and target variables
 x = df.v2

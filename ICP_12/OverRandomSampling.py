@@ -24,37 +24,43 @@ df.info()
 
 # Frequency count of data across various columns
 count = df.groupby(['v1']).count()
-print('The frequency of data belonging to each category:', count)
+print('The frequency of data belonging to each class:')
+print(count)
 
 # Visualization of data distribution
+print('Data spread prior to over sampling')
 sns.countplot(df.v1)
 plt.xlabel('Label')
-plt.title("Number of ham versus spam messages using General Random Sampling")
+plt.title("Number of ham versus spam messages")
 
-# Identifying the specific indices associated with each class
-hamData = df[df.v1 == 'ham'].index
-print("Length of data associated to ham: ",len(hamData))
-print(hamData)
-spamData = df[df.v1 == 'spam'].index
-print("Length of data assocaited to spam: ",len(spamData))
-print(spamData)
+# Identifying the number of data points belonging to class 'ham'
+hamIndex = df[df.v1 == 'ham'].index
+print("No. of messages belonging to category HAM: ",len(hamIndex))
+print(hamIndex)
+
+# Identifying the number of data points belonging to class 'spam'
+spamIndex = df[df.v1 == 'spam'].index
+print("No. of messages belonging to category SPAM: ",len(spamIndex))
+print(spamIndex)
 
 # Accessing data based on the class it belongs to
 dataHam = df[df['v1'] == 'ham']
+print('Data belonging to class HAM:')
 print(dataHam)
 dataSpam = df[df['v1'] == 'spam']
+print('Data belonging to class SPAM:')
 print(dataSpam)
 
-# Random over-sampling of data
-spamOver = dataSpam.sample(len(df[df['v1'] == hamData]))
-dfOver = pd.concat([spamOver, dataHam], axis=0)
+# Random under-sampling analysis
+hamOver = dataSpam.sample(len(df[df['v1'] == 'ham']), replace=True)
+dfOver = pd.concat([dataHam, hamOver], axis=0)
 
-# Visualization of data distribution using under sampling
-sns.countplot(df.v1)
-plt.xlabel('Label')
+# Visualization of data distribution using over sampling
+sns.countplot(dfOver.v1)
+plt.xlabel('Type of Message')
 plt.title("Number of ham versus spam messages using Random Under Sampling")
-print("No. of spam messages resulting from under sampling: ", len(dfOver['v1'] == spamData))
-print("No. of ham messages resulting from under sampling: ", len(dfOver['v1'] == hamData))
+print("No. of spam messages resulting from under sampling: ", len(dfOver[dfOver['v1'] == 'spam']))
+print("No. of ham messages resulting from under sampling: ", len(dfOver[dfOver['v1'] == 'ham']))
 
 # Identifying feature predictors and target variables
 x = dfOver.v2
