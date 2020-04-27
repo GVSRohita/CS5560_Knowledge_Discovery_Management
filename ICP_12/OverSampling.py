@@ -58,7 +58,7 @@ dfOver = pd.concat([dataHam, hamOver], axis=0)
 # Visualization of data distribution using over sampling
 sns.countplot(dfOver.v1)
 plt.xlabel('Type of Message')
-plt.title("Number of ham versus spam messages using Random Under Sampling")
+plt.title("Number of ham versus spam messages using Random Over Sampling")
 print("No. of spam messages resulting from over sampling: ", len(dfOver[dfOver['v1'] == 'spam']))
 print("No. of ham messages resulting from over sampling: ", len(dfOver[dfOver['v1'] == 'ham']))
 
