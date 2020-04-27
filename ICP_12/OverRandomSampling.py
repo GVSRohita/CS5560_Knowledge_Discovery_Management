@@ -59,8 +59,8 @@ dfOver = pd.concat([dataHam, hamOver], axis=0)
 sns.countplot(dfOver.v1)
 plt.xlabel('Type of Message')
 plt.title("Number of ham versus spam messages using Random Under Sampling")
-print("No. of spam messages resulting from under sampling: ", len(dfOver[dfOver['v1'] == 'spam']))
-print("No. of ham messages resulting from under sampling: ", len(dfOver[dfOver['v1'] == 'ham']))
+print("No. of spam messages resulting from over sampling: ", len(dfOver[dfOver['v1'] == 'spam']))
+print("No. of ham messages resulting from over sampling: ", len(dfOver[dfOver['v1'] == 'ham']))
 
 # Identifying feature predictors and target variables
 x = dfOver.v2
