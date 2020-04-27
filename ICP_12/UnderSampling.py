@@ -28,7 +28,7 @@ print('The frequency of data belonging to each class:')
 print(count)
 
 # Visualization of data distribution
-print('Data spread prior to over sampling')
+print('Data spread prior to under sampling')
 sns.countplot(df.v1)
 plt.xlabel('Label')
 plt.title("Number of ham versus spam messages")
@@ -52,19 +52,19 @@ print('Data belonging to class SPAM:')
 print(dataSpam)
 
 # Random under-sampling analysis
-hamOver = dataSpam.sample(len(df[df['v1'] == 'ham']), replace=True)
-dfOver = pd.concat([dataHam, hamOver], axis=0)
+hamUnder = dataHam.sample(2*len(dataSpam))
+dfUnder = pd.concat([hamUnder, dataSpam], axis=0)
 
-# Visualization of data distribution using over sampling
-sns.countplot(dfOver.v1)
+# Visualization of data distribution using under sampling
+sns.countplot(dfUnder.v1)
 plt.xlabel('Type of Message')
 plt.title("Number of ham versus spam messages using Random Under Sampling")
-print("No. of spam messages resulting from over sampling: ", len(dfOver[dfOver['v1'] == 'spam']))
-print("No. of ham messages resulting from over sampling: ", len(dfOver[dfOver['v1'] == 'ham']))
+print("No. of spam messages resulting from under sampling: ", len(dfUnder[dfUnder['v1'] == 'spam']))
+print("No. of ham messages resulting from under sampling: ", len(dfUnder[dfUnder['v1'] == 'ham']))
 
 # Identifying feature predictors and target variables
-x = dfOver.v2
-y = dfOver.v1
+x = dfUnder.v2
+y = dfUnder.v1
 
 # Label encoding of the data
 le = LabelEncoder()
