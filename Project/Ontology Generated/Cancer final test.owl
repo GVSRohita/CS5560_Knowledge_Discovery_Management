@@ -1,0 +1,811 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/gowthamyesg/ontologies/2020/3/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/gowthamyesg/ontologies/2020/3/untitled-ontology-11">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Adjuvant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#After_Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aldehyde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Apoptosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breast_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CMYC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cancer_Stem_Cell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Causes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemotheraphy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DFS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Degraders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diphenyltetrazolium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dosedependent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dynamic_contrast_enhanced_MRI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dysfunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ERI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Endocrine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estrogen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Everolimus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#External_factors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GEM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#G_Protien-coupled_Receptor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HER2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hazard_ratio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hospital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Induced_cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insulin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Investigation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irradiation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lubrication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lung_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mitochondria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Model_Study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Naringenin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OBCS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orthosiphon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orthosiphon_pallidus_aqueous_extract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Osteoporotic_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pallidus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pancreatic_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phantom_breast_syndrome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plasma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polyubiquitination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychological_Stress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiotherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recovery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regimen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Socio-demographic_factors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptoms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tamoxifen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Voxel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#determine_survival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#herpositive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#metastatic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cancer_Stem_Cells(CSCS)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#after"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aqueous"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#early"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#goesTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#growthOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAge"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGender"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSymptoms"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#higherAmounts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inital"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#last"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#measureAtAnyPointOfTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#measure_and_validate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#medication"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#migrationOfCells"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#proliferation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#signAgreement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#studyOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#survivalTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#takesPhotograph"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#typeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#undergoes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#undergoesTests"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#willDetermine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#willPrevent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Female"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Male"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Adjuvant"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#After_Treatment"/>
+        <Class IRI="#Hospital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aldehyde"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Apoptosis"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breast_Cancer"/>
+        <Class IRI="#Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CMYC"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer_Stem_Cell"/>
+        <Class IRI="#Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cells"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chelation"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemotheraphy"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DFS"/>
+        <Class IRI="#After_Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Degraders"/>
+        <Class IRI="#Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diphenyltetrazolium"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dosedependent"/>
+        <Class IRI="#Chemotheraphy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dynamic_contrast_enhanced_MRI"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dysfunction"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ERI"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Endocrine"/>
+        <Class IRI="#Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estrogen"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Everolimus"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#External_factors"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Female"/>
+        <Class IRI="#Gender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GEM"/>
+        <Class IRI="#Model_Study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#G_Protien-coupled_Receptor"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HER2"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hazard_ratio"/>
+        <Class IRI="#Lines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Induced_cancer"/>
+        <Class IRI="#External_factors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insulin"/>
+        <Class IRI="#Radiotherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Investigation"/>
+        <Class IRI="#Hospital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irradiation"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lines"/>
+        <Class IRI="#After_Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lubrication"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lung_Cancer"/>
+        <Class IRI="#Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Male"/>
+        <Class IRI="#Gender"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitochondria"/>
+        <Class IRI="#Cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nab"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Naringenin"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OBCS"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OS"/>
+        <Class IRI="#After_Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orthosiphon"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orthosiphon_pallidus_aqueous_extract"/>
+        <Class IRI="#Investigation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Osteoporotic_Cancer"/>
+        <Class IRI="#Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pallidus"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pancreatic_Cancer"/>
+        <Class IRI="#Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perfusion"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phantom_breast_syndrome"/>
+        <Class IRI="#After_Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plasma"/>
+        <Class IRI="#Radiotherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polyubiquitination"/>
+        <Class IRI="#Causes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychological_Stress"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiotherapy"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recovery"/>
+        <Class IRI="#After_Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regimen"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socio-demographic_factors"/>
+        <Class IRI="#Recovery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stages"/>
+        <Class IRI="#Symptoms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tamoxifen"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treatment"/>
+        <Class IRI="#Hospital"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Voxel"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#determine_survival"/>
+        <Class IRI="#Lines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#herpositive"/>
+        <Class IRI="#Breast_Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#metastatic"/>
+        <Class IRI="#Breast_Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer_Stem_Cells(CSCS)"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Gender"/>
+        <NamedIndividual IRI="#Female"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gender"/>
+        <NamedIndividual IRI="#Male"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#undergoesTests"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#after"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aqueous"/>
+        <Class IRI="#Breast_Cancer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#early"/>
+        <Class IRI="#Voxel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#goesTo"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#growthOf"/>
+        <Class IRI="#Cells"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#growthOf"/>
+        <Class IRI="#HER2"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAge"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGender"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSymptoms"/>
+        <Class IRI="#Female"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSymptoms"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#higherAmounts"/>
+        <Class IRI="#Estrogen"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inital"/>
+        <Class IRI="#Regimen"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#last"/>
+        <Class IRI="#Perfusion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#measureAtAnyPointOfTime"/>
+        <Class IRI="#Hazard_ratio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#measure_and_validate"/>
+        <Class IRI="#Lines"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#medication"/>
+        <Class IRI="#G_Protien-coupled_Receptor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#medication"/>
+        <Class IRI="#Nab"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#migrationOfCells"/>
+        <Class IRI="#Naringenin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#proliferation"/>
+        <Class IRI="#Breast_Cancer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#signAgreement"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#studyOf"/>
+        <Class IRI="#GEM"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#survivalTime"/>
+        <Class IRI="#DFS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#survivalTime"/>
+        <Class IRI="#OS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#takesPhotograph"/>
+        <Class IRI="#Hospital"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#typeOf"/>
+        <Class IRI="#Everolimus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#undergoes"/>
+        <Class IRI="#Investigation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#undergoes"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#undergoes"/>
+        <Class IRI="#Symptoms"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#undergoesTests"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Radiotherapy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Cancer_Stem_Cells(CSCS)"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#willDetermine"/>
+        <Class IRI="#Socio-demographic_factors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#willPrevent"/>
+        <Class IRI="#Apoptosis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#after"/>
+        <Class IRI="#Investigation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aqueous"/>
+        <Class IRI="#Cells"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#early"/>
+        <Class IRI="#Breast_Cancer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#goesTo"/>
+        <Class IRI="#Hospital"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#growthOf"/>
+        <Class IRI="#Stages"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#growthOf"/>
+        <Class IRI="#herpositive"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSymptoms"/>
+        <Class IRI="#Breast_Cancer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSymptoms"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#higherAmounts"/>
+        <Class IRI="#Breast_Cancer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inital"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#last"/>
+        <Class IRI="#Stages"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#measureAtAnyPointOfTime"/>
+        <Class IRI="#determine_survival"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#measure_and_validate"/>
+        <Class IRI="#determine_survival"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#medication"/>
+        <Class IRI="#Breast_Cancer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#medication"/>
+        <Class IRI="#Pancreatic_Cancer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#migrationOfCells"/>
+        <Class IRI="#Lung_Cancer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#proliferation"/>
+        <Class IRI="#Cells"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#signAgreement"/>
+        <Class IRI="#Radiotherapy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#studyOf"/>
+        <Class IRI="#Breast_Cancer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#survivalTime"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#takesPhotograph"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#typeOf"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#undergoes"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#undergoesTests"/>
+        <Class IRI="#Lines"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Cancer_Stem_Cell"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Insulin"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Plasma"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#willDetermine"/>
+        <Class IRI="#Recovery"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#willPrevent"/>
+        <Class IRI="#Cells"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
